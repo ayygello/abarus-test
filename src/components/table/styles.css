@@ -1,0 +1,6 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 8px solid transparent;
+  /* border-bottom: 8px solid transparent; */
+}

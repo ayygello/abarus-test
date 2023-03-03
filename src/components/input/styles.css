@@ -1,0 +1,22 @@
+.input-container {
+  position: relative;
+}
+
+.input {
+  min-width: 60%;
+  background: #5a5c66;
+  border: none;
+  padding: 15px 25px;
+  color: #fff;
+  outline: none;
+}
+
+.input::placeholder {
+  color: #b2b7bf;
+}
+
+.input-logo {
+  position: absolute;
+  left: 55%;
+  top: 30%;
+}

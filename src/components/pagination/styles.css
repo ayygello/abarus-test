@@ -1,0 +1,40 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+}
+
+.pagination__btn {
+  padding: 0;
+  border: none;
+  background: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #474955;
+  cursor: pointer;
+}
+
+.pagination__btn:hover,
+.pagination__btn:active {
+  color: #7ebc3c;
+}
+
+.pagination__pages {
+  min-width: 50%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 15px);
+  gap: 5px;
+}
+
+.pagination__page {
+  text-decoration: none;
+  color: #474955;
+  font-style: italic;
+}
+
+.active {
+  color: #7ebc3c;
+}

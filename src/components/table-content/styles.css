@@ -1,0 +1,8 @@
+.table-content__cell:first-child {
+  padding: 15px 40px;
+}
+
+.table-content__cell {
+  border: 1px solid #e3e6ec;
+  padding: 15px 20px;
+}

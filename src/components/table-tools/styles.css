@@ -1,0 +1,26 @@
+.table-tools {
+  width: 100%;
+  background: #474955;
+}
+
+.table-tools__item {
+  color: #fff;
+  cursor: pointer;
+  text-align: start;
+}
+
+.table-tools__item > span {
+  padding-left: 20%;
+}
+
+.table-tools__triangle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  margin-left: 20px;
+  margin-bottom: 3px;
+}

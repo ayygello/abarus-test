@@ -1,0 +1,12 @@
+.layout {
+  max-width: 1280px;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 186px 148px;
+  background: #fff;
+}
+
+.layout__content {
+  padding: 15px 77px 4px;
+  box-shadow: 0 4px 27px rgba(230, 231, 234, 0.78);
+}
