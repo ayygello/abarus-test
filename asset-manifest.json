@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/abarus-test/static/css/main.a9aad97a.css",
+    "main.js": "/abarus-test/static/js/main.976b3bc1.js",
+    "static/media/search-svgrepo-com 1.svg": "/abarus-test/static/media/search-svgrepo-com 1.534d1a839c2cd926be2654c834c04764.svg",
+    "index.html": "/abarus-test/index.html",
+    "main.a9aad97a.css.map": "/abarus-test/static/css/main.a9aad97a.css.map",
+    "main.976b3bc1.js.map": "/abarus-test/static/js/main.976b3bc1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9aad97a.css",
+    "static/js/main.976b3bc1.js"
+  ]
+}
