@@ -17,6 +17,8 @@ function Pagination({
   prevPage,
   setPage,
 }: PaginationProps) {
+  const separatorCode = -1;
+
   return (
     <div className='pagination indent'>
       <Link
@@ -27,18 +29,22 @@ function Pagination({
         Назад
       </Link>
       <div className='pagination__pages'>
-        {pages.map((page) => (
-          <NavLink
-            onClick={() => setPage(page)}
-            to={`/${page}`}
-            key={page}
-            className={({ isActive }) =>
-              `pagination__page ${isActive ? 'active' : ''}`
-            }
-          >
-            {page}
-          </NavLink>
-        ))}
+        {pages.map((page, index) =>
+          page === separatorCode ? (
+            <div key={index}>...</div>
+          ) : (
+            <NavLink
+              onClick={() => setPage(page)}
+              to={`/${page}`}
+              key={index}
+              className={({ isActive }) =>
+                `pagination__page ${isActive ? 'active' : ''}`
+              }
+            >
+              {page}
+            </NavLink>
+          )
+        )}
       </div>
       <div className='pagination indent'>
         <Link
